@@ -102,3 +102,5 @@ require (
 )
 
 replace istio.io/gogo-genproto v0.0.0-20190124151557-6d926a6e6feb => github.com/istio/gogo-genproto v0.0.0-20190124151557-6d926a6e6feb
+
+replace github.com/hashicorp/memberlist v0.3.0 => github.com/bwaters/memberlist v0.3.1-0.20211223170333-ecefac28a074

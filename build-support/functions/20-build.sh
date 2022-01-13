@@ -292,8 +292,10 @@ function build_consul {
          XC_ARCH=$(go env GOARCH)
       fi
    fi
-   XC_OS=${XC_OS:-"solaris darwin freebsd linux windows"}
-   XC_ARCH=${XC_ARCH:-"386 amd64 arm arm64"}
+   #XC_OS=${XC_OS:-"solaris darwin freebsd linux windows"}
+   XC_OS=${XC_OS:-"linux"}
+   #XC_ARCH=${XC_ARCH:-"386 amd64 arm arm64"}
+   XC_ARCH=${XC_ARCH:-"amd64"}
 
    if test -n "${extra_dir_name}"
    then
